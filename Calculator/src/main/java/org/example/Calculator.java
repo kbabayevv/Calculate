@@ -23,9 +23,8 @@ public class Calculator {
             Util.multi(a,b);
         } else if (menu==4) {
             Util.divide(a,b);
-
-        }
+        } else {
+            System.out.println("Menu is not valid");
+        }   
     }
-
-
 }
